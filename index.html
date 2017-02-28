@@ -1,10 +1,182 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Test</title>
-  </head>
-  <body>
-    <h1>This is great sample.</h1>
-  </body>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a >
+  /*img {
+      /*width: 70%;
+      margin: auto;
+      display: block;
+      max-width: 100%;
+      height: 200px !important;
+
+  }*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+  </style>
+</head>
+<body>
+    <!-- NavBar Menu -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Mision</a></li>
+              <li><a href="#">Goal</a></li>
+              <li><a href="#">Target</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Our Approach</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+
+        <div class="">
+              <form class="navbar-form navbar-left">
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Search</button>
+              </form>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact US</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- End NavBar -->
+    <!-- Slideshow -->
+<div class="container-fluid">
+  <div class="row">
+  <!-- Left Side/Slideshow -->
+    <div class="col-sm-8 col-md-8 col-lg-8">
+      <!-- <div class="container"> -->
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="slides1.jpg" alt="Waterfall" width="100%" height="345">
+            </div>
+
+            <div class="item">
+              <img src="slides2.jpg" alt="Beach" width="100%" height="345">
+            </div>
+
+            <div class="item">
+              <img src="slides3.jpg" alt="River" width="100%" height="345">
+            </div>
+
+            <div class="item">
+              <img src="slides4.jpg" alt="Sea" width="100%" height="345">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  <!-- Right Side/Slideshow -->
+    <!-- <div class="col-xs-4 col-md-4"> -->
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="slide2">
+         <div class='forum-content'>
+              <div class='comments-space'>
+                <strong>Lorem ipsum dolor sit amet, consectetur ade magna aliqua. Upariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui laborum.</strong>
+                The Indian economy is the world's tenth-largest by nominal GDP and third-largest by purchasing power parity. Following market-based economic reforms in 1991, India became one of the fastest-growing major economies; it is considered a newly industrialised country. However, it continues to face the challenges of poverty, corruption, malnutrition, inadequate public healthcare, and terrorism. A nuclear weapons state and a regional power, it has the third-largest standing army in the world and ranks seventh in military expenditure among nations. India is a federal constitutional republic governed under a parliamentary system consisting of 28 states and 7 union territories. India is a pluralistic, multilingual, and multi-ethnic society. It is also home to a diversity of wildlife in a variety of protected habitats.
+              </div>
+        </div>
+      </div>
+</div>
+</div>
+  <!-- Beginning of the 3 columns -->
+  <!-- Left side Article -->
+  <hr>
+        <div class="container-fluid">
+          <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+                <h2>Newsletter Title</h2>
+                <img src="Article.jpg" width="300" height="140">
+                <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones vinyl typewriter. leggings salvia iPhone photo booth health goth gastropub hammock ngs salvia iPhos salvia iPhone photo booth health goth gastr ealth goth gastr ngs salvia iPhone photo booth health goth gastr.</p>
+                <a href="javascript:void(0)" class="ReadBtn" >Read more </a>
+          </div>
+  <!-- Middle Article -->
+            <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+                <div>
+                  <h5>From the Blog</h5>
+                  <h4>Blog Post Title 1</h4>
+                  <p>January 1, 2011 by Sadathe Toure<p>
+                  <img src="Article1.jpg" width="80" height="60">
+                  <span>Tacos actually microdosing, pour-over semiotics banjo chicharrones vinyl typewriter. leggings salvia iPhone photo booth health goth gastropub hammock. gings salvia iPhone photo booth hkjfjaklkl. gings salvia iPhone photo booth.</span>
+                </div>
+                  <hr>
+                <div>
+                  <h4>Blog Post title 2</h4>
+                  <img src="Article2.jpg" width="80" height="50">
+                  <span>Tacos actually microdosing, pour-over semiotics banjo chicharrones vinyl typewriter. leggings salvia iPhone photo booth health goth gastropub hammock.</span>
+                </div>
+  <!-- Right Article -->
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+                <div>
+                  <p><b>Sign Up.</b></p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, ennui dolor pickled.</p>
+                    <br>
+                    <input type="text" name="Yourname" placeholder="Your name" class="input">
+                    <br><br>
+                    <input type="text" name="YourEmailAddress" placeholder="Your Email Address" class="input2">
+                    <br><br>
+                    <input type="submit" class="SignUpBtn">
+                </div>
+            </div>
+          </div>
+        <!-- Footer Comment -->
+          <hr>
+          <footer class="container-fluid">&copy; 2011 Your Company| New-York | 800-123-4567. Note that the form itself is not visible. Also note the default character.</footer>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="js/show.js"></script>
+</body>
 </html>

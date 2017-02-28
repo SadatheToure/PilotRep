@@ -1,0 +1,59 @@
+
+body {
+  /*background-image: url("paper.gif");
+  background-color: #cccccc;*/
+  background: url(leaves.jpg);
+  background-color: #cccccc;
+  font-family: 'Lobster', cursive;
+  color:white;
+}
+
+.SignUpBtn {
+  color: #900;
+  font-weight: bold;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+.ReadBtn{
+  marging: 10%;
+  float: left;
+}
+.slide2
+{
+  margin-top:200px;
+}
+
+.input {
+  margin-right: 10%;
+}
+
+.input2 {
+  float: left;
+}
+
+/*body {
+    font-family:'arial';
+    font-size:12px;
+}*/
+/*a, a:visited {
+    text-decoration:none;
+    color: #0000ff;
+    font-weight:400;*/
+}
+.forum-content {
+    width:500px;
+    height:auto;
+    padding:5px 10px;
+}
+.comments-space {
+    width:90%;
+    min-height:50px;
+    height:auto;
+    border-radius:5px;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    text-align: justify;
+}
+.remaining-content span {
+    display:none;
+}
